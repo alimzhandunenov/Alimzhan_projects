@@ -4,7 +4,7 @@ hours = 3600
 days = 86400
 weeks = 604800
 
-#duration = int(input('Введите количество секунд'))
+##duration = int(input('Введите количество секунд'))
 #if duration > 60:
 #    print(str(round(duration/60)) + ' m')
 #else:print(str(duration) + ' s')
