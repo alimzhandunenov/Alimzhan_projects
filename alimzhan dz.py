@@ -1,14 +1,3 @@
-seconds = 1
-minute = 60
-hours = 3600
-days = 86400
-weeks = 604800
-
-##duration = int(input('Введите количество секунд'))
-#if duration > 60:
-#    print(str(round(duration/60)) + ' m')
-#else:print(str(duration) + ' s')
-
 duration = int(input('Введите количество секунд'))
 if duration < 60:
     print(duration, 'сек')
@@ -34,11 +23,3 @@ elif 31556926 > duration >= 604800:
     d = duration % 604800 //86400
     w = duration // 2629743
     print(w, 'мес',d, 'д', h, 'ч', min, 'мин', sec, 'сек')
-# else:
-#     print('Слишком дохуя')
-
-
-# # x = int(input())
-# # y = int(input())
-# # c = x % y
-# print(c)
